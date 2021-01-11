@@ -6,7 +6,7 @@ const Form = (props) => {
 
     const addColor = (e) => {
         e.preventDefault();
-        setColor([ ...color, newColor])
+        setColor([ ...color, newColor]);
     }
 
     return(
